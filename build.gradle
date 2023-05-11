@@ -20,6 +20,8 @@ dependencyManagement {
 dependencies {
     implementation platform('io.projectreactor:reactor-bom:2022.0.5')
     implementation 'io.projectreactor:reactor-core'
+    testImplementation group: 'io.projectreactor', name: 'reactor-test', version: '3.1.0.RELEASE'
+
 
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux', version: '3.0.5'
 
